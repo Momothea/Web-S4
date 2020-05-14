@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercice 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style type= "text/css">
+        .image{
+            width: 100px;
+            padding: 20% 40% ;
+            border-radius: 50%;
+            box-shadow: black;
+           
+        }
+        
+        .border{
+            padding: 0% 5% ;
+            width: 150px;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            
+        }
+        .fond{
+            background-color: lightgray;
+            font-family:Verdana;
+        }
+        .form{
+            background: white;
+            margin: 0 auto 100px;
+            max-width: 750px;
+            padding: 45px;
+            display :flex;
+            flex-grow: auto;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            box-shadow: 10px 10px 10px;
+            font-family:Verdana;
+        }
+        .form input{
+            font-family:Verdana;
+            border-top: none;
+            border-bottom-color: aqua;
+            border-left: none;
+            border-right: none;
+            margin: 0 10px 10px;
+        }
+        #exe{
+            border-bottom-color: lightgrey;
+        }
+        .form button{
+            font-family:Verdana;
+            text-transform: uppercase;
+         
+            background: lightgray;
+           
+            border:0;
+            padding: 5px;
+           
+            cursor: pointer;
+        }
+
+        .form button{
+            font-family:Verdana;
+            text-transform: uppercase;
+         
+            background: lightgray;
+           
+            border:0;
+            padding: 5px 5px;
+           
+            cursor: pointer;
+        }
+        
+        .form button:hover, form button:active{
+            background: grey;
+
+        }
+        .form-control.error input{
+            border-color: red;
+        }
+
+        
+        
+        </style>
+    </head>
+    <body class="fond">
+
+        <h1>Exercice 3</h1>
+
+        <div class="border"> 
+            <img class="image" src="logo-orange-hd.jpg" alt="logo">
+        </div>
+
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Nom" id="nom1">
+                <input type="text" placeholder="Prenom" id="nom2" > 
+                <input type="text" placeholder="blabla@efrei.net" id="nom3">
+                <label for="rôle-select" id="exe"></label>
+                <select name="rôle" id="rôle-select">
+                    <option value="">Choisir son rôle</option>
+                    <option value="etudiant">etudiant</option>
+                    <option value="enseignant">enseignant</option>
+
+                </select>
+                <button  type="button" id="b1" >Ajouter</button>
+                <button type="button" id="b2">Tout supprimer</button>
+            </form>
+        </div>
+
+        
+
+        <script >
+            const nom = document.getElementById(nom1);
+            const pre = document.getElementById(nom2);
+            function color{
+                if(nom == ""){
+                    nom.innerHTML
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
