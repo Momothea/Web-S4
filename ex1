@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercice 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style type= "text/css">
+        .image{
+            width: 100px;
+            padding: 20% 40% ;
+            border-radius: 50%;
+        }
+
+        .border{
+            background-color: lightgray;
+            padding: 0% 5% ;
+            width: 150px;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+        } 
+        </style>
+    </head>
+    <body>
+
+        <h1>Exercice 1</h1>
+
+        <div class="border"> 
+            <img class="image" src="logo-orange-hd.jpg" alt="logo">
+        </div>
+
+        <script src="" async defer></script>
+    </body>
+</html>
